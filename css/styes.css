@@ -20,13 +20,14 @@ src: url("../fonts/BasementGrotesque-Black_v1.202.otf")format("otf");
     font-family: Argentum Sans-Semi-Bold;
     src: url(../fonts/ArgentumSans-SemiBold.ttf)format("ttf");
 }
+/* Universals */
 *{
     
 }
 
-h1, h2, h3{
+h1, h2, a{
     font-family: Basement Grotesque;
 }
-p{
+p, h3, li{
     font-family: Argentum Sans
 }
