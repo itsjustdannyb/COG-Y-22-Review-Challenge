@@ -1,0 +1,32 @@
+/* Header Fonts */
+/* Import Font from system */
+@font-face 
+{ 
+font-family: "Basement Grotesque";  
+src: url("../fonts/BasementGrotesque-Black_v1.202.otf")format("otf"); 
+}
+
+@font-face {
+    font-family: Argentum Sans-Regular;
+    src: url(../fonts/ArgentumSans-Regular.ttf)format("ttf");
+}
+
+@font-face {
+    font-family: Argentum Sans-Bold;
+    src: url(../fonts/ArgentumSans-Bold.ttf)format("ttf");
+}
+
+@font-face {
+    font-family: Argentum Sans-Semi-Bold;
+    src: url(../fonts/ArgentumSans-SemiBold.ttf)format("ttf");
+}
+*{
+    
+}
+
+h1, h2, h3{
+    font-family: Basement Grotesque;
+}
+p{
+    font-family: Argentum Sans
+}
