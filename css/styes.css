@@ -3,22 +3,21 @@
 @font-face 
 { 
 font-family: "Basement Grotesque";  
-src: url("../fonts/BasementGrotesque-Black_v1.202.otf")format("otf"); 
+src: url("https://github.com/itsjustdannyb/COG-Y-22-Review-Challenge/blob/master/fonts-update/BasementGrotesque-Black_v1.202.woff")format("woff"); 
+}
+@font-face {
+    font-family: "Argentum Sans Regular";
+    src: url("https://github.com/itsjustdannyb/COG-Y-22-Review-Challenge/blob/master/fonts-update/ArgentumSans-Regular.woff")format("woff");
 }
 
 @font-face {
-    font-family: Argentum Sans Regular;
-    src: url(../fonts/ArgentumSans-Regular.ttf)format("ttf");
+    font-family: "Argentum Sans-Bold";
+    src: url("https://github.com/itsjustdannyb/COG-Y-22-Review-Challenge/blob/master/fonts-update/ArgentumSans-Bold.woff")format("woff");
 }
 
 @font-face {
-    font-family: Argentum Sans-Bold;
-    src: url(../fonts/ArgentumSans-Bold.ttf)format("ttf");
-}
-
-@font-face {
-    font-family: Argentum Sans-Semi-Bold;
-    src: url(../fonts/ArgentumSans-SemiBold.ttf)format("ttf");
+    font-family: "Argentum Sans-Semi-Bold";
+    src: url("https://github.com/itsjustdannyb/COG-Y-22-Review-Challenge/blob/master/fonts-update/ArgentumSans-SemiBold.woff")format("ttf");
 }
 /* Universals */
 *{
@@ -34,11 +33,12 @@ src: url("../fonts/BasementGrotesque-Black_v1.202.otf")format("otf");
 }
 
 h1, h2{
-    font-family: Basement Grotesque;
+    font-family: 'Basement Grotesque';
+    font-family: 
 }
 
 p, h3, li, a{
-    font-family: Argentum Sans Regular;
+    font-family: 'Argentum Sans Regular';
 }
 
 
@@ -88,7 +88,7 @@ body{
 }
 #task h2{
     padding: 5px;
-    font-family: Argentum Sans Regular;
+    font-family: 'Argentum Sans Regular';
     line-height: 45px;
 }
 
@@ -137,7 +137,7 @@ body{
     border-radius: 60px;
     margin-bottom: 180px;
     color: var(--text);
-    font-family: Basement Grotesque;
+    font-family: 'Basement Grotesque';
     font-size: 16px;
     text-align: center;
     
